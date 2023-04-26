@@ -2,9 +2,6 @@
 
 import os
 import filetype
-import sys
-
-from shutil import copyfile
 
 from PIL import Image
 
