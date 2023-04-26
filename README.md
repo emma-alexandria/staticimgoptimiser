@@ -11,7 +11,9 @@ Set a source dir, static dir, and valid extensions for source and image files. T
 
 1. Will resize all images, even those of low resolution (e.g 100x100). This could lead to directory clutter
 2. Cannot automatically determine the best size for the fallback image.
-4. Ignores webp files for the purpose of determining what has and hasn't been compressed/processed before.
+3. Ignores webp files for the purpose of determining what has and hasn't been compressed/processed before.
+4. Ignores jpeg/jpg files to avoid worries about double compression / the compression level of the original jpeg
+
 
 ## Intended use: 
 
