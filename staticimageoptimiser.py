@@ -86,10 +86,4 @@ def resize_to_ratio(image, ratio):
     return image.resize((width, height), Image.Resampling.LANCZOS)
 
 
-
-"""
-def convert_to_webp(file):
-
- """
-    # Example usage:
 main()
