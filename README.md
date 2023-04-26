@@ -24,6 +24,7 @@ Also, it might summon Beezelbub and steal all your data or something. Again, ver
 3. Ignores webp files for the purpose of determining what has and hasn't been compressed/processed before.
 4. No arguments - just edit the .py file
 5. Existence of the resized files must be assumed in html. If the script breaks, your site won't build until it's fixed or you change the HTML.
+6. Uses a naive webp compression setting. If your image is already kinda blasted, *it will look worse*.
 
 
 ### Intended use: 
